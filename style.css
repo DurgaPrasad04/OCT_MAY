@@ -1,0 +1,123 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.section1 {
+    padding: 50px 0;
+}
+
+.section1 .flex {
+    align-items: center;
+}
+
+.topleft {
+    flex: 1;
+}
+
+.gymimg {
+    max-width: 100%;
+}
+
+.section2 {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.boxes {
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.highlighted {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.section3 {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.plantable {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
